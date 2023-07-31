@@ -1,7 +1,6 @@
 import random
 
 def maximo():
-    #se crea la primera lista con numeros random
     suma=0
     suma1=0
     lista=[]
@@ -11,7 +10,6 @@ def maximo():
         lista.append(num)
         suma+=num
 
-    #se crea la segunda lista con numeros random
     list=[]
     tamaño= int(random.randint (15,20))
     for i in range (tamaño):
